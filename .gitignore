@@ -30,3 +30,8 @@ frontend/*
 
 # DS Store
 .DS_Store
+venv/
+__pycache__/
+*.pyc
+data/
+endee_store.json

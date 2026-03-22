@@ -137,3 +137,87 @@ If you offer a hosted or managed service based on this software, you must use yo
 ## Third-Party Software
 
 This project includes or depends on third-party software components licensed under their respective open-source licenses. Use of those components is governed by their own license terms.
+
+---
+
+# 🚀 My Project: Chat with Notes (RAG using Endee)
+
+## 📌 Problem
+Users cannot easily extract meaningful information from large documents.
+
+## 💡 Solution
+A Retrieval-Augmented Generation (RAG) system that allows users to upload documents and ask questions.
+
+## ⚙️ How it works
+1. Upload PDF/Text
+2. Chunk text into smaller parts
+3. Convert into embeddings
+4. Store vectors (Endee-inspired storage)
+5. Query → similarity search → return results
+
+## 🧠 Endee Usage
+- Vector-based storage implemented
+- Similarity search using embeddings
+- Persistent storage simulating vector DB behavior
+
+## 🛠 Tech Stack
+- FastAPI
+- Sentence Transformers
+- Python
+
+## ▶️ How to Run
+
+# RAG App - Chat with Notes
+
+## Features
+- Upload PDF
+- Ask questions
+- Semantic search
+
+## Endpoints
+
+### Upload
+POST /upload
+
+### Ask
+POST /ask
+
+## Run
+uvicorn main:app --reload
+
+
+# 🚀 Chat with Notes — RAG using Endee Principles
+
+## 📌 Overview
+This project is a lightweight Retrieval-Augmented Generation (RAG) system.  
+Users can upload documents (PDF/TXT) and ask questions. The system retrieves relevant context using vector similarity and generates answers using a local LLM.
+
+---
+
+## 🎯 Problem
+Large documents are hard to navigate. Users need a way to query and extract insights quickly.
+
+---
+
+## 💡 Solution
+- Convert document text into embeddings
+- Store vectors (persistent storage)
+- Retrieve relevant chunks using similarity search
+- Generate answers using a local model
+
+---
+
+## 🧠 How Endee is Used
+This project follows **Endee’s vector database principles**:
+- Text → embeddings (vector representation)
+- Vector similarity search (dot product)
+- Persistent storage simulating a vector DB
+- Retrieval-first architecture
+
+> Note: Due to time/system constraints, a lightweight storage layer is used to simulate Endee’s functionality.
+
+---
+
+## ⚙️ Architecture
+
+

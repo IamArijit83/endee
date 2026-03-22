@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with Notes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📄 Chat with Your Notes</h1>
+
+    <!-- Upload -->
+    <div class="card">
+        <h2>Upload Document</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload</button>
+        <p id="uploadStatus"></p>
+    </div>
+
+    <!-- Ask -->
+    <div class="card">
+        <h2>Ask Question</h2>
+        <input type="text" id="queryInput" placeholder="Ask something...">
+        <button onclick="askQuestion()">Ask</button>
+
+        <div id="answerBox"></div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

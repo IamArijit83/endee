@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#answerBox {
+    margin-top: 20px;
+    padding: 10px;
+    background: #111827;
+}
